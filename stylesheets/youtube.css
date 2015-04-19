@@ -1,0 +1,31 @@
+#yt-masthead-container {
+  display: none;
+}
+
+.watch-sidebar-gutter {
+  display: none;
+}
+
+#watch-discussion {
+  display: none;
+}
+
+#watch8-action-buttons {
+  display: none;
+}
+
+#watch7-subscription-container {
+  display: none;
+}
+
+#footer-container {
+  display: none;
+}
+
+body #body-container {
+  padding: 0;
+}
+
+.appbar-hidden #masthead-positioner-height-offset {
+  display: none;
+}

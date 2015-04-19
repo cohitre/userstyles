@@ -2,6 +2,9 @@
   "manifest_version": 2,
   "name": "User stylesheets",
   "description": "An extension that cohitre uses to enhance the internet experience",
-  "version": "0.0.0",
-  "content_scripts":[]
+  "version": "0.0.1",
+  "content_scripts":[{
+    "matches": ["https://*.youtube.com/*", "https://youtube.com/*"],
+    "css": ["./stylesheets/youtube.css"]
+  }]
 }
