@@ -4,6 +4,9 @@
   "description": "An extension that cohitre uses to enhance the internet experience",
   "version": "0.0.1",
   "content_scripts":[{
+    "matches": ["https://*.facebook.com/*", "https://facebook.com/*"],
+    "css": ["./stylesheets/facebook.css"]
+  }, {
     "matches": ["https://*.youtube.com/*", "https://youtube.com/*"],
     "css": ["./stylesheets/youtube.css"]
   }]
