@@ -2,6 +2,24 @@
   -webkit-box-shadow: none;
   background: #FFFBF5 none center center no-repeat;
   border-bottom: 1px solid #DEDBD5;
+  transition: opacity 0.25s;
+  opacity: 0.1;
+}
+#blueBarNAXAnchor._4f7n:hover {
+  opacity: 1;
+}
+
+#pagelet_trending_tags_and_topics {
+  display: none;
+}
+
+#leftCol, #rightCol {
+  transition: opacity 0.25s;
+  opacity: 0.1;
+}
+
+#leftCol:hover, #rightCol:hover {
+  opacity: 1;
 }
 
 body._5vb_, body._5vb_ #contentCol {
